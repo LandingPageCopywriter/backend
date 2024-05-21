@@ -10,7 +10,7 @@ import redis
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
-app.secret_key = b'\x96\xb8\x84\xc7\xf8\xcf\x03\xe1\x1fC\xa1U0\xa1\x9e\xba'
+app.secret_key = ''
 
 bcrypt = Bcrypt(app)
 client = pymongo.MongoClient('localhost', 27017)
