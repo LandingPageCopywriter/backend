@@ -4,7 +4,7 @@ from turtle import heading
 from groq import Groq
 
 client = Groq(
-    api_key="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",
+    api_key="",
 )
 
 model = "llama3-70b-8192"
